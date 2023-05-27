@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Wczytanie danych z pliku CSV lub innego źródła danych
-data = pd.read_csv("Length_Of_Hospital_Stay.csv")
+data = pd.read_csv("Medical_Data\Length_Of_Hospital_Stay.csv")
 
 # Wybranie interesujących nas krajów
 countries = ["FRA", "BEL", "CZE"]

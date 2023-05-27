@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Wczytanie danych z pliku CSV lub innego źródła danych
-data = pd.read_csv("Health_Spendings.csv")
+data = pd.read_csv("Medical_Data\Health_Spendings.csv")
 
 # Wybranie interesujących nas krajów
 countries = ['POL', 'CHE', 'FRA', 'DEU', 'CZE', 'DNK', 'HRV', 'BEL']

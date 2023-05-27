@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Wczytanie danych z pliku CSV lub innego źródła danych
-data = pd.read_csv("Doctor_Consultations.csv")
+data = pd.read_csv("Medical_Data\Doctor_Consultations.csv")
 
 # Wybranie interesującego nas wskaźnika
 indicator = "DOCCONSULT"

@@ -1,8 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Specify the path to your CSV file
-csv_file = 'Expected_Life_Length.csv'
+# Ustal ścieżkę do pliku
+csv_file = 'Medical_Data\Expected_Life_Length.csv'
 
 # Wczytanie danych z pliku CSV lub innego źródła danych
 data = pd.read_csv(csv_file)
